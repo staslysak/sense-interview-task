@@ -1,0 +1,11 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run serve --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

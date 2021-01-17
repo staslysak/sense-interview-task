@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/pages/auth/styles.module.scss"],"names":[],"mappings":"AAAA,yBACI,UAAW,CACX,eAAgB","file":"3.5af39cd2.chunk.css","sourcesContent":[".auth-page {\r\n    width: 100%;\r\n    max-width: 340px;\r\n}\r\n"]}
