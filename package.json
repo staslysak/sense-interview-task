@@ -2,16 +2,17 @@
     "name": "server",
     "version": "1.0.0",
     "description": "",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
     "main": "index.js",
     "scripts": {
         "start": "cross-env NODE_ENV=production node server/dist/index",
         "start:dev": "cross-env NODE_ENV=development nodemon server/src/index",
         "build": "./node_modules/.bin/babel server/src -d server/dist"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
     "dependencies": {
+        "@babel/runtime": "^7.12.5",
         "bcrypt": "^5.0.0",
         "body-parser": "^1.19.0",
         "cors": "^2.8.5",
